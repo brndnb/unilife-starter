@@ -1,0 +1,16 @@
+.footer-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.right-container {
+    display: flex;
+}
+
+.foot-p, .foot-nav {
+    margin-left: 20px;
+    font-weight: lighter;
+}

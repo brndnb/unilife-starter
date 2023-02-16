@@ -1,22 +1,18 @@
 import React,{useState} from 'react';
 import './App.css';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import TopFooter from './components/TopFooter/TopFooter';
 
 function App() {
-const [email,setEmail]=useState('')
 
 
-const handleSubmit=(e)=>{
-  e.preventDefault()
-  console.log(email)
-}
 
   return (
     <div>
-       <form onSubmit={handleSubmit}>
-        <input
-          onChange={(e)=>setEmail(e.target.value)}
-        />
-       </form>
+       <Header />
+       <TopFooter />
+       <Footer />
     </div>
   );
 }

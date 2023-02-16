@@ -1,0 +1,48 @@
+* {
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #00a2e1;
+}
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75px;
+}
+
+.header-logo {
+    margin-right: 15px;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 75px;
+    width: 250px;
+    
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
