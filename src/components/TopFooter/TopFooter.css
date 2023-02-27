@@ -1,9 +1,10 @@
 .topfooter-container {
-    margin-top: 500px;
+ 
     height: 374px;
     background-color: #00a2e1;
     display: flex;
     justify-content: space-around;
+    color: white;
 }
 
 .topfooter-left, .topfooter-right {

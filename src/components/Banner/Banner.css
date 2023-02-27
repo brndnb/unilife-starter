@@ -1,0 +1,21 @@
+.banner-container {
+    height: 416px;
+    background-image: url("../../assets/cover-img.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner-h1 {
+    font-size: 64px;
+    font-weight: 500;
+    width: 772px;
+    text-align: center;
+}
+
+.banner-p {
+    font-size: 24px;
+
+}

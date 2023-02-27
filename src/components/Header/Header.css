@@ -1,6 +1,4 @@
-* {
-    color: white;
-}
+
 
 .header-container {
     display: flex;
@@ -8,6 +6,7 @@
     align-items: center;
     height: 60px;
     background-color: #00a2e1;
+    color: white;
 }
 
 

@@ -1,0 +1,21 @@
+.home-info-container {
+    display: flex;
+    flex-direction: column;
+
+   
+  
+}
+
+.home-info-header{
+    text-align: center;
+}
+
+.home-info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 0 50px 0 50px;
+    border-radius: 24px;
+
+}

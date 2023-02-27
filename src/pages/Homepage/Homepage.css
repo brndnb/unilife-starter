@@ -1,0 +1,52 @@
+
+
+
+
+.homepage-bottom-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+   
+}
+
+.bottom-container-left {
+   
+    height: 50vh;
+    padding-left: 40px;
+
+}
+
+.bottom-container-left p {
+    line-height: 25px;
+    margin-left: 70px;
+}
+
+
+.best-selection-header, .heart-header {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.best-selection-image, .heart-image {
+    margin-right: 15px;
+}
+
+.best-selection-container, .heart-container {
+    width: 45vh;
+    margin-bottom: 30px;
+}
+
+.btn {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background-color: #3A5295;
+    color: white;
+   
+    
+}
+
+.search-and-compare {
+    margin-left: 70px;
+}
