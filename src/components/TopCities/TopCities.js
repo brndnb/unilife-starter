@@ -40,6 +40,10 @@ function TopCities() {
                               city={item}/> )
           
         }
+        
+      </div>
+      <div className='see-all-cities'>
+        <button className='btn'>See all cities</button>
       </div>
     </div>
   )

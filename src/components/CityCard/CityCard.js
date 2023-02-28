@@ -4,7 +4,8 @@ import "./CityCard.css"
 function CityCard({city}) {
 
   const cardStyle = {
-    backgroundImage: `url("${city.image_url}")`,
+    backgroundImage: `url("${city.image_url}"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)`,
+    backgroundBlendMode: "overlay",
     backgroundSize: "cover",
     color: "white",
     display: "flex",

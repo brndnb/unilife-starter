@@ -1,12 +1,15 @@
 .banner-container {
     height: 416px;
-    background-image: url("../../assets/cover-img.jpg");
+    background-image: url("../../assets/cover-img.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
 }
+
 
 .banner-h1 {
     font-size: 64px;
@@ -17,5 +20,6 @@
 
 .banner-p {
     font-size: 24px;
+
 
 }
