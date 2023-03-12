@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import CityCard from '../CityCard/CityCard'
 import "./TopCities.css"
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 function TopCities() {
 
@@ -43,7 +44,7 @@ function TopCities() {
         
       </div>
       <div className='see-all-cities'>
-        <button className='btn'>See all cities</button>
+        <Link to="/seeallcities"><button className='btn'>See all cities</button></Link>
       </div>
     </div>
   )

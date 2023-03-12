@@ -1,12 +1,12 @@
 import React from 'react'
 import "./Banner.css"
 
-function Banner() {
+function Banner({htag, ptag}) {
   return (
     <div className='banner-container'>
         <div className='banner-overlay'></div>
-        <h1 className='banner-h1'>Find student homes with bills included</h1>
-        <p className='banner-p'>A simple and faster way to search for student accomodation</p>
+        <h1 className='banner-h1'>{htag}</h1>
+        <p className='banner-p'>{ptag}</p>
     </div>
   )
 }

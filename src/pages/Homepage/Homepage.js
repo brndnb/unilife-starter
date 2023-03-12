@@ -12,7 +12,8 @@ import HomeInfo from '../../components/HomeInfo/HomeInfo'
 function Homepage() {
   return (
     <div>
-        <Banner />
+        <Banner htag="Find student homes with bills included"
+                ptag="A simple and faster way to search for student accommodation"/>
         <SearchBar />
         <TopCities />
         <HomeInfo />

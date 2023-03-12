@@ -1,0 +1,13 @@
+.search-by-city-container h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.search-by-city-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
