@@ -1,0 +1,16 @@
+.picture-box-container{
+    width: 620px;
+
+}
+
+
+.big-image img{
+    width: 100%;
+}
+
+.small-image img{
+    width: 35%;
+}
+
+
+

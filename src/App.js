@@ -7,6 +7,7 @@ import Homepage from './pages/Homepage/Homepage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SeeAllCities from './pages/SeeAllCities/SeeAllCities';
 import CityDetails from './pages/CityDetails/CityDetails';
+import HomeDetail from './pages/HomeDetail/HomeDetail';
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/seeallcities" element={<SeeAllCities />} />
           <Route path='/citydetails/:cityId' element={<CityDetails />} />
+          <Route path='/homedetail/:propertyId' element={<HomeDetail />} />
+
         </Routes>
         <TopFooter />
         <Footer />

@@ -13,8 +13,7 @@ function CityDetails() {
     //states for city and property
     const [cityInfo, setCityInfo] = useState([])
     const [propertyInfo, setPropertyInfo] = useState([])
-    const [totalProperties, setTotalProperties] = useState([])
-    const info = [];
+ 
 
     useEffect(
 
@@ -28,22 +27,12 @@ function CityDetails() {
                 })
             .catch(err => console.log(err))
             
-            //API call for total properties
-            axios.get(`https://unilife-server.herokuapp.com/properties`)
+
+            //API call for property info
+            axios.get(`https://unilife-server.herokuapp.com/properties/city/${cityId}`)
             .then(res => {
-                setPropertyInfo(res.data.total)
-                
-            })
-            .catch(err => console.log(err))
-            
-            
-            //API call for properties
-            //res.data.data[0].city_id._id to get the cityId
-            
-            axios.get(`https://unilife-server.herokuapp.com/properties?limit=${totalProperties}`)
-            .then(res => {
-                
-                console.log(res.data.data)
+                console.log(res.data.response)
+                setPropertyInfo(res.data.response)
             })
             .catch(err => console.log(err))
     
@@ -56,17 +45,17 @@ function CityDetails() {
         <Banner htag="Student Accomodation"
                 ptag="Whatever you're after, we can help you find the right student accommodation for you."/>
         <h1>{cityInfo[0]?.property_count} homes in {cityInfo[0]?.name}</h1>
+        <div className='city-details-card-container'>         
+                              {
+                                propertyInfo.map(item => <CityDetailsCard 
+                                                          info={item}/> )
+                              } 
+        </div>
         <div className='city-detail-info-box-container'>
             <div className='city-detail-info-box'>
                 <div className='city-detail-info-box-text-container'>
                     <h1> Being a student in {cityInfo[0]?.name}</h1>
-                    <div className='city-details-card-container'>
-                            {
-                               console.log(propertyInfo)
 
-                            }
-                        
-                    </div>
                     <p>{cityInfo[0]?.student_life}</p><br></br>
                     <p>{cityInfo[0]?.universities}</p>
                 </div>

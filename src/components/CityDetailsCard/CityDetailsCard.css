@@ -1,0 +1,71 @@
+.info-container {
+    width: 400px;
+    height: 500px;
+    border: solid 1px black;
+    border-radius: 1rem;
+}
+
+.info-image-container {
+    height: 50%;
+}
+
+.info-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.blue-box-info {
+    height: 15%;
+    background-color: #3A5295;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+}
+
+.bed-bath-info-container {
+    display: flex;
+    
+}
+
+.bed-bath-info-container img {
+    margin-right: 0.75rem;
+}
+
+.bed-info-container, .bath-info-container {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    
+}
+
+.property-type {
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 12.5%
+}
+.property-address{
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    height: 12.5%
+}
+
+.property-address img{
+    margin-right: 0.25rem;
+}
+
+.view-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    border-top: solid 1px black;
+}
+
+.view-home img {
+    margin-right: 0.5rem;
+}

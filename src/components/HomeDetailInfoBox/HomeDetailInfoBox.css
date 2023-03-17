@@ -1,0 +1,91 @@
+.home-detail-master-container{
+    width: 620px;
+}
+
+.home-detail-info-box-container {
+    border-radius: 1rem;
+    height: 484px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.address {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+   
+}
+
+.address h1 {
+    width: 60%;
+}
+
+.info-area-container {
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.info-area-item{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+}
+
+.info-area-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.info-area-image {
+    display: flex;
+    width: 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons-container img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.button-with-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+    
+}
+
+.buttons-container button {
+    width: 45%;
+    border: solid 1px black;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.button-blue {
+    background-color: #3A5295;
+    color: white;
+}

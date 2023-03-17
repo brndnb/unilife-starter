@@ -1,0 +1,10 @@
+.home-detail-description-container {
+    width: 620px;
+
+}
+
+.home-detail-description-container p {
+    width: 80%;
+    line-height: 1.5;
+}
+
